@@ -1,0 +1,213 @@
+*{
+	margin:0;
+}
+html,body{
+	height:100%;
+	width:100%;
+}
+p{
+	font-size: 24px;letter-spacing: 3px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	
+}
+body{
+	background-image:url("tourism_background.jpg");
+	background-attachment:fixed;
+}
+
+nav{
+	position:fixed;
+	height:50px;
+	background-color:(0,0,0,0.5);
+	
+}
+.sec{
+	height:180%;
+	background-size:100%;
+	background:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	z-index:-1;
+	
+	
+}
+.secone{ 
+background-image:url("tourism_first.jpg");
+	
+}
+.sectwo{
+	background-image:url("tourism_third.jpg");
+
+	
+}
+.secthree{
+	background-image:url("pyramin.jpg");
+}
+.secfour{
+	background-image:url("map_.jpg");
+}
+.secfive{
+	background-image:url("captain-america-hd-wallpaper_04023735_303.jpg");
+}
+.secsix{
+	background-image:url("deadpool_marvel_comics_superhero_107251_1920x1080.jpg");
+}
+.secseven{
+	background-image:url("6888576-x-men-wallpaper.jpg");
+}
+.seceight{
+	background-image:url("slider.jpg");
+}
+.secnine{
+	background-image:url("slider2.jpg");
+}
+
+.secten{
+	background-image:url("slider3.jpg");
+}
+
+
+.seceleven{
+	background-image:url("amberfort.jpg");
+}
+.sectwelve{
+	background-image:url("Amer-Fort.jpg");
+}
+
+.secthirteen{
+	background-image:url("amberfort1.jpg");
+}
+
+.vidone{ 
+
+}
+.vidtwo{ 
+}
+
+
+.red{
+	background-color:red;
+	
+}
+.black{
+	background-color:black;
+	
+}
+.green{
+	background-color:green;
+	
+}
+.blue{
+	background-color:blue;
+	
+}
+.purple{
+	background-color:purple;	
+}
+
+.subsec{
+	height:20%;
+	opacity:0.5;
+	z-index:1;	
+}
+.overlay_one{
+	background-image:url("maxresdefault (2).jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+.star_overlay{
+	background-image:url("starfall-6vy.jpg");	
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+.batman_overlay{
+	/* background-color:black;	 */
+	background-image:url("heart_overlay.jpg");
+	background-repeat:no-repeat;
+}
+.superman_overlay{
+	background-image:url("confetti-realistic-colorful-overlay-8_4kjrlfmj__M0000.jpg");
+	background-attachment:fixed;
+}
+
+.first_title{
+	position:relative;
+	top:450px;
+	color:black;
+	background-color:white;
+	opacity:1;
+	text-align:center;
+	padding:20px;	
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	opacity:0.7;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover ,.dropdown-content {
+	display: block;}
+	
+.table_bold{
+	font-weight: 900;
+	font-size: 30px;
+	text-align: left;
+	color: rgb(252, 246, 246);
+	
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+	
+.table_italic{
+	
+	font-size: 20px;
+	text-align: left;
+	color: gold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+
+}
+th{
+	font-weight: 900;
+	font-size: 40px;
+	
+	padding: 30px;
+	text-decoration: underline;
+	background-color: rgba(76, 175, 79, 0.651);	
+
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+	
+  }
